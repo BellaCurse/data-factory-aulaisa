@@ -1,0 +1,12 @@
+{
+	"name": "AzureMySqlTableAulaIsaa",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureMySql1SakilaAulaIsa",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureMySqlTable",
+		"schema": []
+	}
+}

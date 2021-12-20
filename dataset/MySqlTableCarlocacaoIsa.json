@@ -1,0 +1,15 @@
+{
+	"name": "MySqlTableCarlocacaoIsa",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "MySql1aulaisa",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "MySqlTable",
+		"schema": [],
+		"typeProperties": {
+			"tableName": "`loc_pedido_locacao`"
+		}
+	}
+}
