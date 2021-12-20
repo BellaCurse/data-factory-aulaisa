@@ -96,7 +96,18 @@
 							"outputs": [
 								{
 									"referenceName": "Parquet1AulaIsa",
-									"type": "DatasetReference"
+									"type": "DatasetReference",
+									"parameters": {
+										"conteiner": "ingestion",
+										"file": {
+											"value": "@concat(item().table_name, '.parquet')\n",
+											"type": "Expression"
+										},
+										"folder": {
+											"value": "@item().table_schema",
+											"type": "Expression"
+										}
+									}
 								}
 							]
 						}
