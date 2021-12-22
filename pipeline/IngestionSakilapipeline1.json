@@ -95,16 +95,16 @@
 							],
 							"outputs": [
 								{
-									"referenceName": "Parquet1AulaIsa",
+									"referenceName": "ParquetAulaIsaaa",
 									"type": "DatasetReference",
 									"parameters": {
-										"conteiner": "ingestion",
-										"file": {
-											"value": "@concat(item().table_name, '.parquet')\n",
-											"type": "Expression"
-										},
+										"container": "ingestion",
 										"folder": {
 											"value": "@item().table_schema",
+											"type": "Expression"
+										},
+										"file": {
+											"value": "@concat(item().table_name, '.parquet')\n",
 											"type": "Expression"
 										}
 									}
