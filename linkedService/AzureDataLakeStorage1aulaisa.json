@@ -6,11 +6,7 @@
 		"type": "AzureBlobFS",
 		"typeProperties": {
 			"url": "https://aula201221.dfs.core.windows.net",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJlNjVmNjQ4ZC0zNzhjLTQzNTMtYjllZi0xNzdlMjY3YjlhM2EiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
-		},
-		"connectVia": {
-			"referenceName": "integrationRuntime1aulaisa",
-			"type": "IntegrationRuntimeReference"
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDBFQzJCRkI1LTdFMTEtNDEwRC04NjM0LTcxRTRDQkZDRTVDQV8yMjY4ODQ1ZS1kZjZiLTRkMmMtYjU4NS1kNGUwMjYzYWRjMDgiDQp9"
 		}
 	}
 }
